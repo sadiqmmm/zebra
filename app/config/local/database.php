@@ -25,7 +25,7 @@ return array(
 			'host'      => 'localhost',
 			'database'  => 'zebra',
 			'username'  => 'root',
-			'password'  => '',
+			'password'  => 'mysqladmin',
 			'charset'   => 'utf8',
 			'collation' => 'utf8_unicode_ci',
 			'prefix'    => '',

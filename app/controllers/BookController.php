@@ -3,12 +3,8 @@
 class BookController extends \BaseController {
 
 	public function index() 
-	{
-		return  View::make('books.index');
+	{	$books = Book::all();
+		return View::make('books.index')->with('books', $books);
 	}
-
-	public function show($id)
-	{
-		
-	}
+	
 }

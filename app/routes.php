@@ -14,14 +14,13 @@
 Route::resource('books', 'BookController');
 
 # Root routes
-Route::get('/', function()
-{
-	return View::make('books.index');
+Route::get('/', function(){ 
+  $books = Book::all();
+	return View::make('books.index')->with('books', $books);	 
 });
 
 # Get php info
-Route::get('/info', function()
-{
+Route::get('/info', function(){
 	return View::make('info');
 });
 # Get database conectivity

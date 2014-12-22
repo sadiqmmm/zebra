@@ -6,4 +6,5 @@ Read me
 
 3) php artisan migrate # To migrate the pending migrations
 4) php artisan migrate:reset # To Roll Back the All the migrations
-5) 
+5) php artisan help migrate # See the help info about migration
+6) php artisan migrate --pretend # Just show what information is migrated

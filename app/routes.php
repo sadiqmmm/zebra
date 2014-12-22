@@ -10,16 +10,21 @@
 | and give it the Closure to execute when that URI is requested.
 |
 */
+# Book Resource
+Route::resource('books', 'BookController');
 
+# Root routes
 Route::get('/', function()
 {
-	return View::make('hello');
+	return View::make('books.index');
 });
 
+# Get php info
 Route::get('/info', function()
 {
 	return View::make('info');
 });
+# Get database conectivity
 Route::get('/db', function(){ 
   return DB::select('select database();');
 });

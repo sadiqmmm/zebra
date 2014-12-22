@@ -1,0 +1,33 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700);
+
+$body-bg: #ecf0f1;
+$font-family-sans-serif: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$navbar-height: 45px;
+$navbar-default-bg: #fff;
+$navbar-default-brand-color: #c0392b;
+$jumbotron-bg: #fff;
+$brand-primary: #c0392b;
+$brand-warning: #d35400;
+$brand-success: #16a085;
+
+.navbar-brand {
+	font-weight: bold;
+}
+.center {
+	text-align: center;
+}
+.left {
+  float: left;
+}
+.right {
+	float: right;
+}
+.hide {
+	display: none;
+}
+.show {
+	display: block;	
+}
+.back-link {
+  clear: both;
+}

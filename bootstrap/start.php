@@ -28,6 +28,7 @@ $env = $app->detectEnvironment(array(
 
 	'local' => array('homestead'),
 	'local' => array('azad'),
+	'local' => array('Alauddin-PC'),
 
 ));
 

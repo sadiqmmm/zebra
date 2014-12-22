@@ -20,3 +20,6 @@ Route::get('/info', function()
 {
 	return View::make('info');
 });
+Route::get('/db', function(){ 
+  return DB::select('select database();');
+});

@@ -1,0 +1,9 @@
+Read me
+----------
+1) php artisan env # for environment check
+
+2) php artisan migrate:make create_tablename-plarul_table --create=tablename_plural # Create the migration and create database setup for table
+
+3) php artisan migrate # To migrate the pending migrations
+4) php artisan migrate:reset # To Roll Back the All the migrations
+5) 

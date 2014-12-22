@@ -88,21 +88,3 @@ Route::filter('csrf', function()
 		throw new Illuminate\Session\TokenMismatchException;
 	}
 });
-
-
-/*
-|--------------------------------------------------------------------------
-| Https
-|--------------------------------------------------------------------------
-| Https every where
-| 
-|
-*/
-Route::filter('force.ssl', function()
-{
-    if( ! Request::secure())
-    {
-        return Redirect::secure(Request::getRequestUri());
-    }
-
-});

@@ -4,6 +4,7 @@
   <title>Zebra</title>  
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"> 
   <link rel="stylesheet" type="text/css" href="{{ asset('css/bootstrap.css') }}">
+  <link rel="stylesheet" type="text/css" href="{{ asset('css/font-awesome.css')}}">
   <link rel="stylesheet" type="text/css" href="{{ asset('css/custom_bs.css')}}">
 </head>
 <body>
